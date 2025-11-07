@@ -1,7 +1,7 @@
-import '../lib/models/citizen.dart';
-import '../lib/models/admin.dart';
-import '../lib/services/maintenance_service.dart';
-import '../lib/services/notification_service.dart';
+import 'package:mydartapp/models/citizen.dart';
+import 'package:mydartapp/models/admin.dart';
+import 'package:mydartapp/services/maintenance_service.dart';
+import 'package:mydartapp/services/notification_service.dart';
 
 void main() {
   final citizen = Citizen(
